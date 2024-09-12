@@ -1,0 +1,25 @@
+
+/* General Styling */
+/* body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+} */
+:root {
+  --primary-color: #000000; /* Default primary color */
+  --secondary-color: #ffffff; /* Default secondary color */
+}

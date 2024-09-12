@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #000000; /* Default primary color */
+    --secondary-color: #ffffff; /* Default secondary color */
+  }
+  
+  .profile-container {
+    background-color: var(--secondary-color); /* Use secondary color for background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: var(--primary-color); /* Use primary color for header */
+        
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex
+  }
+  
+  .profile-form input {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .profile-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: black;
+  }
+  
+  .profile-form button {
+    background-color: var(--primary-color); /* Use primary color for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-form button:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+  /* .profile-image {
+    border-radius: 100%;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+  } */
+  
+  .logo-preview {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap to the next line */
+  }
+  
+  .twosection,
+  .twosection1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Adjust to make sure each section takes up half the width */
+  }
+  
+  .twosection {
+    padding-right: 10px; /* Add padding between sections */
+  }
+  
+  .twosection1 {
+    padding-left: 10px; /* Add padding between sections */
+  }
+  
+  button.edit-btn {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  button.edit-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
